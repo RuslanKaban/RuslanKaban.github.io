@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&family=Inter:wght@400;700&family=Montserrat:wght@400;800&display=swap');
+
+body {
+    background-color: rgb(146, 5, 127);
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    color: rgb(61, 0, 77);
+    font-size: 50px ;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square1 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.square2 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.square3 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.square4 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.square5 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.square6 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(128, 0, 110);
+    margin: 20px;
+}
+
+.num {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 70px;
+    margin-top: 10px;
+    color: rgb(61, 0, 77);
+}
+
+.txt{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(61, 0, 77);
+}
+
+.square1 p {
+    text-align: center;
+}
+
+.square2 p {
+    text-align: center;
+}
+
+.square3 p {
+    text-align: center;
+}
+
+.square4 p {
+    text-align: center;
+}
+
+.square5 p {
+    text-align: center;
+}
+
+.square6 p {
+    text-align: center;
+}
+
+@media (max-width: 749px){
+    .container {
+        width: 749px;
+        justify-content: center;   
+    }
+    
+    .square1 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+    }
+    
+    .square2 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square3 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square4 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square5 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square6 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .num {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 70px;
+        margin-top: 10px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .txt{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .square1 p {
+        text-align: center;
+    }
+    
+    .square2 p {
+        text-align: center;
+    }
+    
+    .square3 p {
+        text-align: center;
+    }
+    
+    .square4 p {
+        text-align: center;
+    }
+    
+    .square5 p {
+        text-align: center;
+    }
+    
+    .square6 p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 750px){
+    .container {
+        display: flex;
+        width: 915px;   
+    }
+    
+    .square1 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+    }
+    
+    .square2 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square3 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square4 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square5 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square6 {
+        height: 350px;
+        width: 350px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .num {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 70px;
+        margin-top: 10px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .txt{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .square1 p {
+        text-align: center;
+    }
+    
+    .square2 p {
+        text-align: center;
+    }
+    
+    .square3 p {
+        text-align: center;
+    }
+    
+    .square4 p {
+        text-align: center;
+    }
+    
+    .square5 p {
+        text-align: center;
+    }
+    
+    .square6 p {
+        text-align: center;
+    }
+}
+
+@media(min-width:1000px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1400px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .square1 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square2 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square3 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square4 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square5 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .square6 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(128, 0, 110);
+        margin: 20px;
+    }
+    
+    .num {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 70px;
+        margin-top: 10px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .txt{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(61, 0, 77);
+    }
+    
+    .square1 p {
+        text-align: center;
+    }
+    
+    .square2 p {
+        text-align: center;
+    }
+    
+    .square3 p {
+        text-align: center;
+    }
+    
+    .square4 p {
+        text-align: center;
+    }
+    
+    .square5 p {
+        text-align: center;
+    }
+    
+    .square6 p {
+        text-align: center;
+    }
+}
