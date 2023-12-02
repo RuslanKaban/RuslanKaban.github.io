@@ -1,362 +1,608 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&family=Inter:wght@400;700&family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 
-body {
-    background-color: rgb(146, 5, 127);
+header {
+  background-color: rgb(247, 247, 247);
+  position: fixed;
+  top: 0;
+  width: 97%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  margin-bottom: 100px;
 }
 
-h1 {
-    font-family: 'Exo 2', sans-serif;
-    text-align: center;
-    color: rgb(61, 0, 77);
-    font-size: 50px ;
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav ul li:last-child {
+  margin-right: 50px;
+}
+
+.nav ul li a {
+  color: rgb(248, 104, 212);
+  text-decoration: none;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  color: rgb(241, 0, 181);
+}
+
+.logo {
+  font-family: 'Monomaniac One', sans-serif;
+  margin-left: 50px;
+  color: rgb(248, 104, 212);
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1400px;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  margin-left: 100px;
+  width: 1270px;
+  height: 4100px;
+  margin-top: 150px;
+  left: 250px;
+  z-index: 2;
+  margin-bottom: 100px;
+  
 }
 
-.square1 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+.container .banner {
+  background-color: rgb(247, 247, 247);
+  width: 1200px;
+  margin: left 22px;
+  display: flex;
+  align-items: center;
 }
 
-.square2 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+.banner .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 50px;
+  color: black;
 }
 
-.square3 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+.banner a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
 }
 
-.square4 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+.banner a:hover {
+  color: rgb(241, 0, 181);
 }
 
-.square5 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+
+.container .products {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+
+  width: 1000px;
+  height: 750px;
 }
 
-.square6 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(128, 0, 110);
-    margin: 20px;
+.products .small-square1 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  align-items: center;
 }
 
-.num {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 70px;
-    margin-top: 10px;
-    color: rgb(61, 0, 77);
+.products .small-square2 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
 }
 
-.txt{
-    font-family: 'Exo 2', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-    color: rgb(61, 0, 77);
+.products .small-square3 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
 }
 
-.square1 p {
-    text-align: center;
+.products .small-square4 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
 }
 
-.square2 p {
-    text-align: center;
+.middle-rectangle {
+  width: 320px;
+  height: 730px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
 }
 
-.square3 p {
-    text-align: center;
+.small-square1 #easel {
+  width: 200px;
+  height: 360px;
+  margin-left: 140px;
 }
 
-.square4 p {
-    text-align: center;
+.small-square1 .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: -300px;
+  margin-left: 30px;
 }
 
-.square5 p {
-    text-align: center;
+.small-square1 a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
 }
 
-.square6 p {
-    text-align: center;
+.small-square1 a:hover {
+  color: rgb(241, 0, 181);
 }
 
-@media (max-width: 749px){
-    .container {
-        width: 749px;
-        justify-content: center;   
-    }
-    
-    .square1 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-    }
-    
-    .square2 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square3 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square4 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square5 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square6 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .num {
-        font-family: 'Exo 2', sans-serif;
-        font-size: 70px;
-        margin-top: 10px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .txt{
-        font-family: 'Exo 2', sans-serif;
-        font-size: 20px;
-        margin-top: 20px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .square1 p {
-        text-align: center;
-    }
-    
-    .square2 p {
-        text-align: center;
-    }
-    
-    .square3 p {
-        text-align: center;
-    }
-    
-    .square4 p {
-        text-align: center;
-    }
-    
-    .square5 p {
-        text-align: center;
-    }
-    
-    .square6 p {
-        text-align: center;
-    }
+.small-square2 #brushes {
+  width: 200px;
+  height: 350px;
+  margin-left: 120px;
 }
 
-@media (min-width: 750px){
-    .container {
-        display: flex;
-        width: 915px;   
-    }
-    
-    .square1 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-    }
-    
-    .square2 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square3 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square4 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square5 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square6 {
-        height: 350px;
-        width: 350px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .num {
-        font-family: 'Exo 2', sans-serif;
-        font-size: 70px;
-        margin-top: 10px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .txt{
-        font-family: 'Exo 2', sans-serif;
-        font-size: 20px;
-        margin-top: 20px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .square1 p {
-        text-align: center;
-    }
-    
-    .square2 p {
-        text-align: center;
-    }
-    
-    .square3 p {
-        text-align: center;
-    }
-    
-    .square4 p {
-        text-align: center;
-    }
-    
-    .square5 p {
-        text-align: center;
-    }
-    
-    .square6 p {
-        text-align: center;
-    }
+.small-square2 .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: -300px;
+  margin-left: 30px;
 }
 
-@media(min-width:1000px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 1400px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .square1 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square2 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square3 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square4 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square5 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .square6 {
-        height: 400px;
-        width: 400px;
-        background-color: rgb(128, 0, 110);
-        margin: 20px;
-    }
-    
-    .num {
-        font-family: 'Exo 2', sans-serif;
-        font-size: 70px;
-        margin-top: 10px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .txt{
-        font-family: 'Exo 2', sans-serif;
-        font-size: 20px;
-        margin-top: 20px;
-        color: rgb(61, 0, 77);
-    }
-    
-    .square1 p {
-        text-align: center;
-    }
-    
-    .square2 p {
-        text-align: center;
-    }
-    
-    .square3 p {
-        text-align: center;
-    }
-    
-    .square4 p {
-        text-align: center;
-    }
-    
-    .square5 p {
-        text-align: center;
-    }
-    
-    .square6 p {
-        text-align: center;
-    }
+.small-square2 a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
+}
+
+.small-square2 a:hover {
+  color: rgb(241, 0, 181);
+
+}
+
+.middle-rectangle #hand {
+  width: 400px;
+  height: 700px;
+}
+
+.middle-rectangle #sale {
+  width: 100px;
+  height: 100px;
+  margin-top: -400px;
+}
+
+.small-square3 #markers {
+  width: 200px;
+  height: 350px;
+  margin-left: 120px;
+}
+
+.small-square3 .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: -300px;
+  margin-left: 30px;
+}
+
+.small-square3 a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
+}
+
+.small-square3 a:hover {
+  color: rgb(241, 0, 181);
+
+}
+
+.small-square4 #paper {
+  width: 200px;
+  height: 350px;
+  margin-left: 120px;
+}
+
+.small-square4 .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: -300px;
+  margin-left: 30px;
+}
+
+.small-square4 a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
+}
+
+.small-square4 a:hover {
+  color: rgb(241, 0, 181);
+
+}
+
+.small-square4 #sale {
+  width: 100px;
+  height: 100px;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+.container .features {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
+  width: 1200px;
+  margin: left 22px;
+  display: flex;
+  align-items: center;
+}
+
+.fon #david {
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  margin-left: 150px;
+}
+
+.features .david .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 50px;
+}
+
+.features a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
+  font-size: 50px;
+}
+
+.features a:hover {
+  color: rgb(241, 0, 181);
+
+}
+
+.heart {
+  transform: translate(-100px, 180px);
+}
+
+.fon #socket {
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.features .socket .txt {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: -80px;
+}
+
+.features a {
+  text-decoration: none;
+  color: rgb(248, 104, 212);
+  font-size: 50px;
+}
+
+.features a:hover {
+  color: rgb(241, 0, 181);
+
+}
+
+.features p {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+
+}
+
+.features button {
+  background-color: rgb(248, 104, 212);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+}
+
+.features button:hover {
+  background-color: rgb(241, 0, 181);
+}
+
+.container .newsletter {
+  background-image: url(Photos/art.jpg);
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 1000px;
+  height: 300px;
+  background-size: cover;
+  background-position: 100%;
+
+}
+
+.newsletter .email {
+  width: 700px;
+  height: 70px;
+  margin-top: 125px;
+  margin-left: 50px;
+  font-family: 'Monomaniac One', sans-serif;
+
+}
+
+.newsletter button {
+  background-color: rgb(248, 104, 212);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  transform: translate(-5px, 8px);
+}
+
+.newsletter button:hover {
+  background-color: rgb(241, 0, 181);
+}
+
+h2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-left: -100px;
+}
+
+.container .products2 {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+
+  width: 1000px;
+  height: 1200px;
+
+}
+
+.products2 .small-square1 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  margin-bottom: 150px;
+}
+.small-square1 #document {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square1 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.products2 .small-square2 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square2 #palette {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square2 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+.products2 .small-square3 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square3 #paint {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square3 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.products2 .small-square4 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  margin-bottom: 150px;
+}
+.small-square4 #pencils {
+    width: 200px;
+    height: 350px;
+    margin-left: 50px;
+}
+.small-square4 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.products2 .small-square5 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square5 #knife {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square5 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+.products2 .small-square6 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square6 #apron {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square6 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.products2 .small-square7 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+  margin-bottom: 150px;
+}
+.small-square7 #sharpener {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square7 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+ 
+}
+
+.products2 .small-square8 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square8 #eraser {
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square8 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+.products2 .small-square9 {
+  width: 319px;
+  height: 360px;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
+}
+.small-square9 #sketchbook{
+  width: 200px;
+  height: 350px;
+  margin-left: 50px;
+}
+.small-square9 .txt2 {
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+.products2 button{
+    width: 1000px;
+    background-color: rgb(248, 104, 212);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 30px;
+  }
+  
+  .products2 button:hover {
+    background-color: rgb(241, 0, 181);
+}
+
+.shnyaga{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 250px;
+    transform: translate(0px, 4450px);
+}
+
+.shnyaga h1{
+  text-align: center;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+  margin-bottom: 300px;
+}
+
+footer{
+  background-color: rgb(255, 255, 255);
+  width: 98%;
+  height: 200px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  margin-bottom: 100px;
+  transform: translate(0px, 4450px);
+}
+
+footer p{
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 30px;
+}
+footer .copyright{
+  font-size: 10px;
+}
+footer .mail{
+  margin-right: 350px;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+footer a:hover{
+  color: rgb(241, 0, 181);
 }
